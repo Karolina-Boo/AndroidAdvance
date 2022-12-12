@@ -3,4 +3,6 @@
     <string name="card_view_test_sb_1">控制圆角大小</string>
     <string name="card_view_test_sb_2">控制阴影大小</string>
     <string name="card_view_test_sb_3">控制图片间距</string>
+    <string name="user_name">username</string>
+    <string name="password">password</string>
 </resources>

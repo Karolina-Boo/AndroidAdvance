@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.androidadvance.cardviewtest.CardViewTestActivity
 import com.example.androidadvance.listViewTest.ListViewTestActivity
 import com.example.androidadvance.recyclerViewTest.RecyclerViewTestActivity
+import com.example.androidadvance.textinputtest.TextInputActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         val cardViewButton = findViewById<Button>(R.id.btn_card_view)
         cardViewButton.setOnClickListener {
             val intent = Intent(this, CardViewTestActivity::class.java)
+            startActivity(intent)
+        }
+        val textInputButton = findViewById<Button>(R.id.btn_text_input)
+        textInputButton.setOnClickListener {
+            val intent = Intent(this, TextInputActivity::class.java)
             startActivity(intent)
         }
     }

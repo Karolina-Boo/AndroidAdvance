@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAdvance"
         tools:targetApi="31">
-        <activity android:name=".cardviewtest.CardViewTestActivity"/>
+        <activity android:name=".cardviewtest.CardViewTestActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,6 +28,7 @@
         </activity>
         <activity android:name=".listViewTest.ListViewTestActivity" />
         <activity android:name=".recyclerViewTest.RecyclerViewTestActivity" />
+        <activity android:name=".textinputtest.TextInputActivity"/>
     </application>
 
 </manifest>
