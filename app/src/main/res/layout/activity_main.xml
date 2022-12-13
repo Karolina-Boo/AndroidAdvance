@@ -40,4 +40,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <Button
+        android:id="@+id/btn_tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabLayoutTest"
+        app:layout_constraintTop_toBottomOf="@+id/btn_text_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_download_24"
+        android:clickable="true"
+        android:elevation="@dimen/dp_4"
+        app:pressedTranslationZ="@dimen/dp_6"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
