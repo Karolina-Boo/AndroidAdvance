@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androidadvance.cardviewtest.CardViewTestActivity
+import com.example.androidadvance.coordinatorlayouttest.CollapsingToolbarActivity
+import com.example.androidadvance.coordinatorlayouttest.CoordinatorLayoutActivity
 import com.example.androidadvance.listViewTest.ListViewTestActivity
 import com.example.androidadvance.recyclerViewTest.RecyclerViewTestActivity
 import com.example.androidadvance.tablayouttest.TabLayoutActivity
@@ -38,6 +40,16 @@ class MainActivity : AppCompatActivity() {
         val tabLayoutButton = findViewById<Button>(R.id.btn_tab_layout)
         tabLayoutButton.setOnClickListener {
             val intent = Intent(this, TabLayoutActivity::class.java)
+            startActivity(intent)
+        }
+        val coordinatorLayoutButton = findViewById<Button>(R.id.btn_coordinator_layout)
+        coordinatorLayoutButton.setOnClickListener {
+            val intent = Intent(this, CoordinatorLayoutActivity::class.java)
+            startActivity(intent)
+        }
+        val collapsingLayoutButton = findViewById<Button>(R.id.btn_collapsing_layout)
+        collapsingLayoutButton.setOnClickListener {
+            val intent = Intent(this, CollapsingToolbarActivity::class.java)
             startActivity(intent)
         }
     }
