@@ -3,6 +3,8 @@ package com.example.androidadvance
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androidadvance.cardviewtest.CardViewTestActivity
 import com.example.androidadvance.coordinatorlayouttest.CollapsingToolbarActivity
@@ -11,6 +13,7 @@ import com.example.androidadvance.listViewTest.ListViewTestActivity
 import com.example.androidadvance.recyclerViewTest.RecyclerViewTestActivity
 import com.example.androidadvance.tablayouttest.TabLayoutActivity
 import com.example.androidadvance.textinputtest.TextInputActivity
+import com.example.androidadvance.viewtest.CustomViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -52,5 +55,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CollapsingToolbarActivity::class.java)
             startActivity(intent)
         }
+        val customViewButton = findViewById<Button>(R.id.btn_custom_view)
+        customViewButton.setOnClickListener {
+            val intent = Intent(this,CustomViewActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

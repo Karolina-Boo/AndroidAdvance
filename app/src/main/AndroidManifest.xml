@@ -30,8 +30,9 @@
         <activity android:name=".recyclerViewTest.RecyclerViewTestActivity" />
         <activity android:name=".textinputtest.TextInputActivity" />
         <activity android:name=".tablayouttest.TabLayoutActivity" />
-        <activity android:name=".coordinatorlayouttest.CoordinatorLayoutActivity"/>
-        <activity android:name=".coordinatorlayouttest.CollapsingToolbarActivity"/>
+        <activity android:name=".coordinatorlayouttest.CoordinatorLayoutActivity" />
+        <activity android:name=".coordinatorlayouttest.CollapsingToolbarActivity" />
+        <activity android:name=".viewtest.CustomViewActivity"/>
     </application>
 
 </manifest>
