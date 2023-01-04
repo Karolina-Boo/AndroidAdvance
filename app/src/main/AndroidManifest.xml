@@ -33,7 +33,8 @@
         <activity android:name=".coordinatorlayouttest.CoordinatorLayoutActivity" />
         <activity android:name=".coordinatorlayouttest.CollapsingToolbarActivity" />
         <activity android:name=".viewtest.CustomViewActivity" />
-        <activity android:name=".viewtest.ExtendsSysCustomViewActivity"/>
+        <activity android:name=".viewtest.ExtendsSysCustomViewActivity" />
+        <activity android:name=".viewtest.CustomGroupViewActivity"/>
     </application>
 
 </manifest>

@@ -13,6 +13,7 @@ import com.example.androidadvance.listViewTest.ListViewTestActivity
 import com.example.androidadvance.recyclerViewTest.RecyclerViewTestActivity
 import com.example.androidadvance.tablayouttest.TabLayoutActivity
 import com.example.androidadvance.textinputtest.TextInputActivity
+import com.example.androidadvance.viewtest.CustomGroupViewActivity
 import com.example.androidadvance.viewtest.CustomViewActivity
 import com.example.androidadvance.viewtest.ExtendsSysCustomViewActivity
 
@@ -59,7 +60,8 @@ class MainActivity : AppCompatActivity() {
         val customViewButton = findViewById<Button>(R.id.btn_custom_view)
         customViewButton.setOnClickListener {
 //            val intent = Intent(this,CustomViewActivity::class.java)
-            val intent = Intent(this,ExtendsSysCustomViewActivity::class.java)
+//            val intent = Intent(this,ExtendsSysCustomViewActivity::class.java)
+            val intent = Intent(this,CustomGroupViewActivity::class.java)
             startActivity(intent)
         }
 
