@@ -32,7 +32,8 @@
         <activity android:name=".tablayouttest.TabLayoutActivity" />
         <activity android:name=".coordinatorlayouttest.CoordinatorLayoutActivity" />
         <activity android:name=".coordinatorlayouttest.CollapsingToolbarActivity" />
-        <activity android:name=".viewtest.CustomViewActivity"/>
+        <activity android:name=".viewtest.CustomViewActivity" />
+        <activity android:name=".viewtest.ExtendsSysCustomViewActivity"/>
     </application>
 
 </manifest>
