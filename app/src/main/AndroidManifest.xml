@@ -35,6 +35,7 @@
         <activity android:name=".viewtest.CustomViewActivity" />
         <activity android:name=".viewtest.ExtendsSysCustomViewActivity" />
         <activity android:name=".viewtest.CustomGroupViewActivity"/>
+        <activity android:name=".diffutiltest.DiffActivity"/>
     </application>
 
 </manifest>

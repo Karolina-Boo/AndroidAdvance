@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.androidadvance.cardviewtest.CardViewTestActivity
 import com.example.androidadvance.coordinatorlayouttest.CollapsingToolbarActivity
 import com.example.androidadvance.coordinatorlayouttest.CoordinatorLayoutActivity
+import com.example.androidadvance.diffutiltest.DiffActivity
 import com.example.androidadvance.listViewTest.ListViewTestActivity
 import com.example.androidadvance.recyclerViewTest.RecyclerViewTestActivity
 import com.example.androidadvance.tablayouttest.TabLayoutActivity
@@ -64,6 +65,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,CustomGroupViewActivity::class.java)
             startActivity(intent)
         }
-
+        val diffutilButton = findViewById<Button>(R.id.btn_diffutil)
+        diffutilButton.setOnClickListener {
+            val intent = Intent(this, DiffActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
